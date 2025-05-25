@@ -139,7 +139,7 @@ const Demo = () => {
               <h4 className="text-lg font-bold text-neon-cyan mb-2">Analysis Summary</h4>
               <div className="grid md:grid-cols-3 gap-4 text-sm">
                 <div>
-                  <span className="text-gray-400">Total Whales (>1%):</span>
+                  <span className="text-gray-400">Total Whales (&gt;1%):</span>
                   <span className="text-neon-green ml-2 font-bold">2</span>
                 </div>
                 <div>

@@ -41,7 +41,7 @@ const CTA = () => {
                 <div className="text-gray-400">Uptime Guarantee</div>
               </div>
               <div className="p-4">
-                <div className="text-2xl font-bold text-neon-purple mb-2">< 1s</div>
+                <div className="text-2xl font-bold text-neon-purple mb-2">&lt; 1s</div>
                 <div className="text-gray-400">Response Time</div>
               </div>
             </div>
