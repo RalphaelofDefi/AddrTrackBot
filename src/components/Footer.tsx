@@ -5,9 +5,13 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="text-2xl">🐋</div>
-              <span className="text-xl font-bold text-neon">WHALE TRACKER</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/7fa963c1-8091-4b51-96d1-02733ccd2e2f.png" 
+                alt="AddrTrack Logo" 
+                className="w-8 h-8"
+              />
+              <span className="text-xl font-bold text-neon">ADDRTRACK</span>
             </div>
             <p className="text-gray-400 text-sm">
               Advanced cryptocurrency analysis for the modern trader.
@@ -46,7 +50,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2024 Whale Tracker. All rights reserved. Built for the future of crypto analysis.</p>
+          <p>&copy; 2024 AddrTrack. All rights reserved. Built for the future of crypto analysis.</p>
         </div>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'WHALE TRACKER';
+  const fullText = 'ADDRTRACK';
   
   useEffect(() => {
     let index = 0;
@@ -49,6 +49,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-neon-cyan to-neon-blue text-black font-bold px-8 py-4 text-lg hover:scale-105 transition-transform glow-border animate-glow"
+              onClick={() => window.open('https://t.me/AddrTrackBot', '_blank')}
             >
               Start Analysis
             </Button>

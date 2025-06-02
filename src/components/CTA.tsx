@@ -12,13 +12,14 @@ const CTA = () => {
               READY TO TRACK?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join thousands of crypto analysts using Whale Tracker to make informed trading decisions.
+              Join thousands of crypto analysts using AddrTrack to make informed trading decisions.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-neon-cyan to-neon-blue text-black font-bold px-8 py-4 text-lg hover:scale-105 transition-transform glow-border animate-glow"
+                onClick={() => window.open('https://t.me/AddrTrackBot', '_blank')}
               >
                 Start Free Trial
               </Button>

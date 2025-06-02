@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const Features = () => {
   const features = [
     {
-      title: "Top 50 Token Holders",
+      title: "Top Token Holders",
       description: "Comprehensive analysis of the largest token holders by USD value and token balance",
       icon: "📊",
       gradient: "from-neon-cyan to-neon-blue"
